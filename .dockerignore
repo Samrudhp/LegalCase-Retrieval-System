@@ -1,0 +1,151 @@
+# Environment files - Keep secrets secure
+.env
+.env.*
+!.env.example
+
+# Git and version control
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+README.md
+DOCKER_SETUP.md
+docs/
+LICENSE
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.tmp/
+
+# Node.js (for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+coverage/
+.nyc_output
+
+# Python (for backend)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+venv/
+.venv/
+env/
+ENV/
+
+# Data and cache directories
+data/
+cache/
+.cache/
+*.sqlite
+*.db
+
+# IDE and editor files
+*.sublime-project
+*.sublime-workspace
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Docker files (to avoid recursion)
+Dockerfile.dev
+docker-compose.override.yml
+docker-compose.dev.yml
+.dockerignore
+
+# CI/CD files
+.github/
+.gitlab-ci.yml
+.travis.yml
+circle.yml
+
+# Package manager files
+package-lock.json
+yarn.lock
+Pipfile.lock
+
+# Test files and directories
+tests/
+test/
+__tests__/
+*.test.js
+*.test.py
+*.spec.js
+*.spec.py
+
+# Build artifacts
+dist/
+build/
+out/
+target/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Security and credential files
+credentials.json
+service-account.json
+private-key.pem
+*.key
+*.crt
+*.pem
+
+# Application specific
+uploads/
+downloads/
+faiss_indexes/
+model_cache/
+.models/
+
+
